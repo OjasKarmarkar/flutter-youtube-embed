@@ -477,8 +477,7 @@ String _generateIframePage(String videoId, WebviewtubeOptions options) {
                     'playsinline': 1,
                     'rel': 0,
                     'start': ${options.startAt},
-                    'end': ${options.endAt},
-                    'origin': 'https://www.youtube.com'
+                    'end': ${options.endAt}
                 },
                 events: {
                     onReady: function (event) { sendMessageToDart('Ready'); },
