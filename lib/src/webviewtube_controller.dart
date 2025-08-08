@@ -157,7 +157,7 @@ class WebviewtubeController extends ValueNotifier<WebviewTubeValue> {
 
     await _webViewController.loadHtmlString(
       _generateIframePage(videoId, options),
-      baseUrl: 'https://www.youtube.com',
+      //baseUrl: 'https://www.youtube.com',
     );
 
     if (!_initCompleter.isCompleted) {
